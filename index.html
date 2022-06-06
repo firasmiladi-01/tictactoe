@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        table tr td {
+            border: 1px solid white;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .invisible {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position-absolute top-50 start-50 translate-middle" id="game">
+        <div>
+            <table id="board">
+                <tr>
+                    <td id="a1"></td>
+                    <td id="a2"></td>
+                    <td id="a3"></td>
+                </tr>
+                <tr>
+                    <td id="b1"></td>
+                    <td id="b2"></td>
+                    <td id="b3"></td>
+                </tr>
+                <tr>
+                    <td id="c1"></td>
+                    <td id="c2"></td>
+                    <td id="c3"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="tictactoe.js"></script>
+</body>
+
+</html>
